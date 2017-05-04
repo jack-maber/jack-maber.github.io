@@ -1,8 +1,8 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "Collosi Battle Arena"
+date:   2017-05-04 16:54:46
+author: Jack Maber
 categories:
 - project
 img: portfolio_10.jpg
