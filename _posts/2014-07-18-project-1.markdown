@@ -6,6 +6,5 @@ img: title.png
 alt: kuthwala.png
 project-date: May 2017
 client: Falmouth Games Academy - 1st Year Game Project
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+description: Kuthwala is a third person puzzle game, where the player plays as two different animals, a Bear and a Panther. The game was based around native American folklore and thus had an art style to match. The press kit can be downloaded here:https://drive.google.com/open?id=1bg5nOr326a-JOuttSeKq6lwA0KF9NPVP
 ---
