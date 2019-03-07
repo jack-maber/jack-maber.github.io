@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="febca7bc-1535-4365-9f58-e87581259fee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2014-07-18-project-1.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-07-18-project-1.markdown" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -77,7 +76,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="136">
-                <caret line="8" column="298" selection-start-line="8" selection-start-column="298" selection-end-line="8" selection-end-column="298" />
+                <caret line="8" column="287" selection-start-line="8" selection-start-column="287" selection-end-line="8" selection-end-column="287" />
               </first_editor>
               <second_editor />
             </state>
@@ -240,12 +239,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551970219387</updated>
       <workItem from="1551970221940" duration="6926000" />
-      <workItem from="1551988718987" duration="74000" />
+      <workItem from="1551988718987" duration="804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7000000" />
+    <option name="totallyTimeSpent" value="7730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -397,7 +396,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="136">
-            <caret line="8" column="298" selection-start-line="8" selection-start-column="298" selection-end-line="8" selection-end-column="298" />
+            <caret line="8" column="287" selection-start-line="8" selection-start-column="287" selection-end-line="8" selection-end-column="287" />
           </first_editor>
           <second_editor />
         </state>

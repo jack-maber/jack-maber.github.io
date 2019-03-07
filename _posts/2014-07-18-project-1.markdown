@@ -6,5 +6,5 @@ img: title.png
 alt: kuthwala.png
 project-date: May 2017
 client: Falmouth Games Academy - 1st Year Game Project
-description: Kuthwala is a third person puzzle game, where the player plays as two different animals, a Bear and a Panther. The game was based around native American folklore and thus had an art style to match. [Kuthwala Press Kit](https://drive.google.com/open?id=1bg5nOr326a-JOuttSeKq6lwA0KF9NPVP)
+description: Kuthwala is a third person puzzle game, where the player plays as two different animals, a Bear and a Panther. The game was based around native American folklore and thus had an art style to match. [Google]: https://drive.google.com/open?id=1bg5nOr326a-JOuttSeKq6lwA0KF9NPVP
 ---
