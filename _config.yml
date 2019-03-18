@@ -1,57 +1,35 @@
-# Site settings
-title: Jack Maber
-email: jack-maber@live.co.uk
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "3rd Year BSc Computing For Games Student"
-meta_author: Maber Jack
+# Permalinks
+permalink:           pretty
 
-# Google webmaster tools
-google_verify:
+# Setup
+title:               Progress
+tagline:             A responsive blog theme that illustrates reading progress. Suited for continous reading.
+url:                 http://alexanderussell.github.io
+baseurl:             /progress-for-jekyll
+analytics_id:
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Owner/author information
+owner:
+  name:           Alex Russell
+  avatar:         avatar.png
+  bio:            "Designer."
+  email:          alex@collectivelymade.com
+  twitter:        alexanderussell
+  github:         alexanderussell
+  instagram:      alexanderussell
+  dribbble:       alexanderussell
+  location:       "Lincoln, NE"
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# Custom vars
+version:             2.0.0
+github:
+  repo:              
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 4772ff #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
 
-# Footer settings
-footer:
-  copyright: Jack Maber
-  location: Location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: http://github.com/jack-maber
-  - title: linkedin
-    url: https://www.linkedin.com/in/jack-maber-0944b7181/
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Penryn
-  - line: Cornwall, United Kingdom
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Gems
+gems:
+  - jekyll-paginate
