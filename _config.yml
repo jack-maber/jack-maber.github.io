@@ -1,80 +1,42 @@
+# Site settings
+title: Willian Justen - Desenvolvedor Front End
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
+url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-##########################################
-#     Change these variables !important
-##########################################
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
 
-# Set this for Copyright in the footer
-owner: Jack Maber
-
-# Optional quote in the footer
-# To disable set enable to false
-quote:
-  enable: false
-  quote: Some fancy quote
-  author: John Doe
-
-# Set this to your main site title. If page doesn't have its own title,
-# then this title will be used.
-title: Jack Maber
-
-
-# Following needed for disqus integration
-# Set your 'disqus' account name
-disqus:
-
-# Uncomment if deployed locally
-#url: https://localhost:4000
-
-# Set your host if deployed not locally
-# For example "https://yourGitHub.github.io"
-url: https://jack-maber.github.io
-
-# Change this to your base URL starting with forward slash if site is in gh-pages branch
-# For example /branchName
-# NOTE! only change if site is NOT in master's branch
-baseurl:
-
-# Change this to your google analytics ID
-google_analytics:
-
-# Contact form pupublic key
-contact_PK: 5349740e8c1a7227ff7b4b4103a9a0b5
-
-##########################################
-#          Optional variables
-##########################################
-
-# Set maximum posts per page
-paginate: 5
-
-# Set permalink
-permalink: /:categories/:title
-
-# MathJax support
-math: false
-
-collections:
-- definitions
-
-##########################################
-#          Do not change these variables
-##########################################
-
-include:
-  - _pages
-
-sass:
-  sass_dir: _sass
-sass:
-    style: compressed
-
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap # add /sitemap.xml file
-
-paginate_path: /_pages/page:num
-
-highlighter: rouge
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
