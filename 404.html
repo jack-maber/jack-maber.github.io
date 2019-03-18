@@ -1,113 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: 404 - Page not found
+visible: false
+---
 
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div id="content" class="content">
+    <header class="post-header short-diver">
+        <h1 class="post-title">Page not found</h1>
+        <p>The page you requested could not be found.</p>
+    </header>
 
-  <title>
-    
-      404: Page not found &middot; Progress
-    
-  </title>
-
-<!-- Social Metadata -->
-
-  <meta content="your_facebook_app_id" property="fb:app_id">
-  <meta content="Progress" property="og:site_name">
-  
-    <meta content="Progress" property="og:title">
-  
-  
-    <meta content="website" property="og:type">
-  
-  
-    <meta content="" property="og:description">
-  
-  
-  
-  
-    <meta content="/img/logo.png" property="og:image">
-  
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@alexanderussell">
-  <meta name="twitter:creator" content="@alexanderussell">
-  
-    <meta name="twitter:title" content="Progress">
-  
-  
-  
-    <meta name="twitter:description" content="">
-  
-  
-
-  
-  <link rel="stylesheet" href="/progress-for-jekyll/css/reset.css">
-  <link rel="stylesheet" href="/progress-for-jekyll/css/style.css">
-
-  <script src="/progress-for-jekyll/js/modernizr.js"></script> 
-  
-
-
-</head>
-
-
-<body>
-  <header class="header">
-  <h1>
-    <a href="http://alexanderussell.github.io/progress-for-jekyll/" title="Home">Progress</a>
-  </h1>
-  <nav>
-    <ul>
-    
-      <li>
-        <a href="/progress-for-jekyll/"">Home</a>
-      </li>
-    
-      <li>
-        <a href="/progress-for-jekyll/about"">About</a>
-      </li>
-    
-      <li>
-        <a href="/progress-for-jekyll/archive"">Archive</a>
-      </li>
-    
-      <li>
-        <a href="https://flattr.com/profile/alexanderussell"">Donate</a>
-      </li>
-    
-      <li>
-        <a href="http://alexanderussell.org"">Alex Who?</a>
-      </li>
-    
+    <h3>Similar URLs</h3>
+    <ul class="category recent-posts">
+        <ul class="urlSuggestions"></ul>
     </ul>
-  </nav>
-</header>
-
-      <main>
-        <div class="articles full-width">
-  <article>
-    <h1>404: Page not found</h1>
-    <p>Sorry, we’ve misplaced that URL or it’s pointing to something that doesn’t exist. <a href="/progress-for-jekyll/">Head back home</a> to try finding it again.</p>
-
-
-  </article>
 </div>
-      </main>
 
-      <footer class="footer tc">
-  <small>
-    &copy; 2016 Alex Russell
-    <br>
-    Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://alexanderussell.org/progress-for-jekyll/">Progress Theme</a>.
-  </small>
-</footer>
+<script id="article-template" type="text/x-custom-template">
+    <li>
+        <div class="article">
+            <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                <header class="post-header">
+                    <span class="title"><a itemprop="name" href="" title=""></a></span>
+                    <time class="date" itemprop="datePublished" datetime=""></time>
+                </header>
+            </article>
+        </div>
+    </li>
+</script>
 
-
-
-    <script src="/progress-for-jekyll/js/jquery-2.1.4.js"></script>
-    <script src="/progress-for-jekyll/js/main.js"></script>
-
-    
-  </body>
-</html>
+<script src="{{ "/js/jquery-1.12.0.min.js" | absolute_url }}"></script>
+<script src="{{ "/js/fuzzyset.js" | absolute_url }}"></script>
+<script src="{{ "/js/offline.js" | absolute_url }}"></script>
+<script>
+    $(document).ready(function () {
+        insertSimilarUrls(String(window.location.href), "{{ "/api/posts.json" | absolute_url }}", "#article-template", ".urlSuggestions", 10);
+    });
+</script>
