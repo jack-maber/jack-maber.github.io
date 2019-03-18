@@ -1,5 +1,25 @@
-<footer class="site-footer">
-    <button class="go-to-top"></button>
-    <p class="copyright"><a href="{{ "" | absolute_url }}" title="{{ site.title }}">{{site.title}}</a> &copy; {{ site.time | date: '%Y' }} | <a href="{{ "/feed.xml" | absolute_url }}" title="RSS Feed">RSS Feed</a></p>
-    <p class="poweredby">powered by <a href="https://jekyllrb.com/" title="Jekyll">Jekyll</a> with the <a href="https://github.com/jwillmer/jekyllDecent" title="jekyllDecent Theme">jekyllDecent</a> theme</p>
-</footer>
+{% if site.quote["enable"] %}
+<blockquote id="footer-quote">
+    <p>
+        {% if page.quote %}
+        {{ page.quote["quote"] }}
+        {% else %}
+        {{ site.quote["quote"] }}
+        {% endif %}
+    </p>
+    <footer>
+        <cite>
+        {% if page.quote %}
+        - {{ page.quote["author"] }}
+        {% else %}
+        - {{ site.quote["author"] }}
+        {% endif %}
+    </cite>
+    </footer>
+</blockquote>
+{% endif %}
+<div id="footer-main">
+    <small>
+        &copy; 2016 {{ site.owner }}. ALL RIGHTS RESERVED.
+    </small>
+</div>
