@@ -1,16 +1,31 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
-    {% include head.html %}
-    <body>
-        {% include svg-icons.html %}
-        {% include header-default.html %}
-            <section class="content">
-                {{ content }}
-            </section>
-        {% include footer.html %}
-    </body>
+<html>
+
+  {% include head.html %}
+
+<body class="home-template">
+  <div id="page" class="site">
+
+
+    {% include header.html %}
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+
+            <div class="overlay"></div>
+  </div><!-- #page -->  
+
+
+    <script id="dsq-count-scr" src="//lucasgatsas.disqus.com/count.js" async></script>
+
+  </body>
+
 </html>
