@@ -1,79 +1,64 @@
 ---
 layout: default
-organiser: "Lucas Gatsas"
-
 ---
 
-{% assign organiser = site.data.organisers[page.organiser] %}
 
-<main class="site-main" role="main">
-  <div class="site-content inner-wide">
 
-    <div class="cover hero">
-      <div class="cover-bg" style="background-image: url('img/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg')"></div>
-      <div class="cover-content">
-        <div class="inner">
-          <div class="hero-wrap">
-            <h2 class="hero-title fade-in"> {{ site.title }}</h2>
-            <hr>
-            <p class="hero-text fade-in">
-
-             {{ site.description }} <br>
-            Blogging here about Code & Technology.</p>
-            <p class="subscribe"> <a href="rss/" class="button light fade-in">Subscribe</a></p>
-          </div>          
+<!-- One -->
+    <section id="one">
+        <div class="container">
+            <header class="major">
+                <h2>Read Only</h2>
+                <p>Just an incredibly simple responsive site<br />
+                template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+            </header>
+            <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
         </div>
-      </div>
-    </div>
-    
-    <div class="post-grid"> 
+    </section>
 
-        {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-      
-        {% for post in site.posts  %}
+<!-- Two -->
+    <section id="two">
+        <div class="container">
+            <h3>Things I Can Do</h3>
+            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+            <ul class="feature-icons">
+                <li class="fa-code">Write all the code</li>
+                <li class="fa-cubes">Stack small boxes</li>
+                <li class="fa-book">Read books and stuff</li>
+                <li class="fa-coffee">Drink much coffee</li>
+                <li class="fa-bolt">Lightning bolt</li>
+                <li class="fa-users">Shadow clone technique</li>
+            </ul>
+        </div>
+    </section>
 
-        {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
-
-        {% if blogDate >= currentDate %}
-
-        {% if post.cover %}
-
-      <article class="post-inside post-inside grid-item post glas-theme">
-          <div class="post-bg" style="background-image:url({{post.cover}});"></div>
-
-                              {% endif %}
-
-                <header class="post-header">
-                  <h2 class="post-title">
-                    <a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }} 
-                      <span>
-                        
-                      </span>
-                    </a>
-                  </h2>  
-                  <div class="post-meta">
-                    by 
-                    <span class="post-author">
-                    <a href="{{ site.baseurl }}/about">{{ site.title }} </a>
-                    </span> on 
-                    <time class="published" datetime="">{{ post.date | date: "%b %-d, %Y" }}</time>
-                  </div>
-                </header>
-            <div class="read-more">
-              <a class="button light" href="{{ post.url | prepend: site.baseurl }}" title="Walking on Thin Ice">Read More</a>
+<!-- Three -->
+    <section id="three">
+        <div class="container">
+            <h3>A Few Accomplishments</h3>
+            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+            <div class="features">
+                <article>
+                    <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h4>Possibly broke spacetime</h4>
+                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h4>Terraformed a small moon</h4>
+                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h4>Snapped dark matter in the wild</h4>
+                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                    </div>
+                </article>
             </div>
-      </article>
-      
-        {% endif %}
-
-      {% endfor %}
         </div>
-
-    <nav class="pagination" role="navigation">
-      <span class="page-number">{{ site.title }} </span>
-    </nav>   
-  </div>
-</main>
-
-
-
+    </section>

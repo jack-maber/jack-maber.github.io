@@ -1,31 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+    {% include /head.html %}
+    <body>
+        <div id="wrapper">
+        {% include /header.html %}
 
-  {% include head.html %}
+            <!-- Main -->
+            <div id="main">
+                {{ content }}
 
-<body class="home-template">
-  <div id="page" class="site">
-
-
-    {% include header.html %}
-
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-
-            <div class="overlay"></div>
-  </div><!-- #page -->  
-
-
-    <script id="dsq-count-scr" src="//lucasgatsas.disqus.com/count.js" async></script>
-
-  </body>
-
+            </div>
+            {% include /footer.html %}
+		</div>
+	</body>
 </html>
