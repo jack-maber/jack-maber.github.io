@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa85f08c-eb08-4b3d-bd96-77d17e00addf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mud.html" beforeDir="false" afterPath="$PROJECT_DIR$/mud.html" afterDir="false" />
-    </list>
+    <list default="true" id="fa85f08c-eb08-4b3d-bd96-77d17e00addf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,7 +21,7 @@
     <session id="-846152346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
@@ -211,16 +209,15 @@
       <workItem from="1553031373528" duration="1158000" />
       <workItem from="1553086001474" duration="1104000" />
       <workItem from="1553093867343" duration="11876000" />
-      <workItem from="1553118059233" duration="1144000" />
+      <workItem from="1553118059233" duration="1743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33057000" />
+    <option name="totallyTimeSpent" value="33656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.14474554" />
       <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.14474554" />
