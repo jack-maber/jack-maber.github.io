@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
-    "\\assets\\sass",
-    "\\assets\\sass\\components",
-    "\\assets\\sass\\layout",
-    "\\images"
+    "\\assets\\css"
   ],
-  "SelectedNode": "\\assets\\sass\\components\\_tiles.scss",
+  "SelectedNode": "\\mud.html",
   "PreviewInSolutionExplorer": false
 }
