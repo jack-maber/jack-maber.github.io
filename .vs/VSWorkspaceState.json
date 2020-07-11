@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\css",
+    "\\assets\\sass",
+    "\\assets\\sass\\components",
+    "\\assets\\sass\\layout",
+    "\\images"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\sass\\components\\_tiles.scss",
   "PreviewInSolutionExplorer": false
 }
